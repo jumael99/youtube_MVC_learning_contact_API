@@ -7,8 +7,7 @@ require('dotenv').config()
 app.use(express.json())
 
 /*Known as middleware*/
-app.use('/', require('./routes/userRoute'));
-app.use('/api/contacts', require('./routes/contactRoute'));
+app.use('/', require('./routes/contactRoute'));
 
 const mongoURI = process.env.MONGODB_URI
 const port = process.env.PORT || 3001
