@@ -1,4 +1,4 @@
-# project palnning
+# project planning
 
 ## what do they do in the tutorial?
 - They used constants.js for different types of status codes
