@@ -13,4 +13,8 @@ connectDb();
 
 app.use(express.json())
 app.use('/', require('./routes/contactRoute'));
+/*He added a errorhandler middleware*/
 
+app.listen(process.env.PORT, ()=> {
+    console.log(`connected with port: ${process.env.PORT}`);
+})
